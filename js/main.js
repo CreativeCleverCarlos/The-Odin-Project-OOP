@@ -23,4 +23,19 @@
 
 //The single responsibiity is one of 5 principles under the acronym SOLID
 
-//all five being Single responsibility, Open-closed, Liskov substitution, Interface segregation, andDependency inversion
+//all five being Single responsibility, Open-closed, Liskov substitution, Interface segregation, and Dependency inversion
+
+
+//Open closed
+
+//this principle means that code should be open for extension, but closed fo rmodifcation
+
+//https://duncan-mcardle.medium.com/solid-principle-3-liskov-substitution-javascript-fdb6af8ee1ea
+
+//listov substitution
+
+//this means that nay class that that extends off of a parent, should be substitutable without any unexpected consequences. an exmaple would be a rectangular square problem. If the rectangle is the parent of the square, the height and width will be the same for the rectangle, but the square would require all sides to be the same
+
+//dependency inversion
+
+//Avoiding high level code that depend son low level interfaces. Rather use abstraction... Basically, don't have an important process not be able to run if a not important process doesn't run. aka, the payment of a site causes the entire site to crash if paypal is changed to something eles. "Abstract" that payment portion from the rest of the site so it can be altered without the site crashing. In the example, more code is used, so it's not quicker, but it is better
